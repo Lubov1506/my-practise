@@ -96,16 +96,14 @@ const addMoreFruit = (findProductName, products, addProduct) => {
   //           element.quantity += addQuantity;
   //           isExist = true;
   //           return;
-  //       } else { isExist ? isExist : !isExist };
+  //       } 
   //   });
   // forEach()
   products.forEach((element) => {
     if (element.productName === findProductName) {
       element.quantity += addQuantity;
       isExist = true;
-    } else {
-      isExist ? isExist : !isExist;
-    }
+    } 
   });
   //   for...of
 //   for (const product of products) {
@@ -114,8 +112,6 @@ const addMoreFruit = (findProductName, products, addProduct) => {
 //       product.quantity += addQuantity;
 //       isExist = true;
 //       break;
-//     } else {
-//       isExist ? isExist : !isExist;
 //     }
 //   }
   !isExist ? addProduct(findProductName, 5, addQuantity, products) : null;
