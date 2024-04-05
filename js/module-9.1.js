@@ -54,3 +54,7 @@ const onLoginFormSubmit = (e) => {
 loginForm.addEventListener("input", onLoginFormInput);
 
 loginForm.addEventListener("submit", onLoginFormSubmit);
+
+export default function calc(a, b) {
+  return a+b
+}

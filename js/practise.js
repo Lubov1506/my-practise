@@ -265,3 +265,5 @@ const {
 } = musicLibrary;
 
 const { name, albums: [firstAlbum1, secondAlbum1]} = firstArtist
+
+import calc from "./module-9.1";
