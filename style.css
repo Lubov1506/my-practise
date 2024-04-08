@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 button {
   border: none;
   background-color: transparent;
@@ -67,4 +71,26 @@ input {
   border-radius: 4px;
   outline: none;
   background-color: transparent;
+}
+.box10 {
+  background-color: antiquewhite;
+  height: 50px;
+  width: 50px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.js-list-img > li {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  max-height: 200px;
 }
