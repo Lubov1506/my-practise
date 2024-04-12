@@ -20,3 +20,8 @@ promise.then((res) => console.log(res)).catch((err) => console.log(err));
 //   }
 // );
 
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((response) =>console.log(response))
+//   .then((json) => console.log(json));
+
+  console.log(new Date());
